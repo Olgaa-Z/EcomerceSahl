@@ -3,6 +3,8 @@ package com.yana.sahlhouseware
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.Menu
+import com.yana.sahlhouseware.feed.FeedProduct
+import com.yana.sahlhouseware.news.News
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -20,7 +22,7 @@ class MainActivity : AppCompatActivity() {
                 }
 
                 R.id.nav_product->{
-                    supportFragmentManager.beginTransaction().replace(R.id.coordinator_layout, Product()).commit()
+                    supportFragmentManager.beginTransaction().replace(R.id.coordinator_layout, FeedProduct()).commit()
                     return@setOnNavigationItemSelectedListener true
                 }
 

@@ -8,6 +8,8 @@
     <color name="bg_gray">#F4F4F4</color>
     <color name="black">#070707</color>
     <color name="bg_blue">#32B8F6</color>
+    <color name="dark">#114C67</color>
     <color name="red">#F41414</color>
+    <color name="green">#4CAF50</color>
 
 </resources>

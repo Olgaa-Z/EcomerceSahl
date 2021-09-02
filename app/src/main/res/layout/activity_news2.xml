@@ -4,15 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    tools:context=".News">
-
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/rvnewsutama"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-
-    </androidx.recyclerview.widget.RecyclerView>
+    tools:context=".news.News">
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rvnews"
@@ -20,6 +12,5 @@
         android:layout_height="wrap_content">
 
     </androidx.recyclerview.widget.RecyclerView>
-
 
 </LinearLayout>
